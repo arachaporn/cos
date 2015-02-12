@@ -1,0 +1,12 @@
+\.torrent
+\.mpg
+\.mpeg 
+\.wmv
+\.3gp
+\.flv
+\.avi
+\.mp3
+\.mov
+\.mkv
+\.mp4 
+				

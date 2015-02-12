@@ -1,0 +1,13 @@
+ftp: 202.43.45.111
+Username: cdip
+Password: 8RRN3y2wB4o
+
+database
+cdipthailand.com
+Username: cdip_db
+Password: Vpbj93_2
+
+cos
+Username: cdip_cosdb
+Password: Ch76b!m3
+

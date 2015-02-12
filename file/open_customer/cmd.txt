@@ -1,0 +1,22 @@
+﻿ดู computer name
+
+ping -a ip
+
+ปล่อย ip และรับ ip ใหม่
+
+ipconfig /release -ปล่อย ip
+
+ipconfig /renew -รับ ip
+
+โปรแกรม putty
+user: root
+pass: rootadmin
+พิมพ์ sh clearsquid.sh
+
+disconnet user
+net use * /delete
+please enter :Y
+
+----------------------------
+create folder backup
+\\10.0.0.20\backup\SD\IT001
