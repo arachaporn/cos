@@ -1,0 +1,32 @@
+Upgrading
+=========
+To be sure that you do not lose your data in the event of errors, you should back up all your data first.  All the upgrade scripts can be found in Config directory. To upgrade to the current version 1.8.20081228, your version of Calendarix Advanced must be version 1.7.20070707.  If your version is not 1.7.20070707, please upgrade your version in steps, from one version to the next using the upgrade scripts available.
+
+For example, if you are upgrading from Calendarix Advanced version 1.0.20030407 or 1.1.20030531 to version 1.2.20030831, run the script "upgrade_to_1_2_20030831.php".  If you are upgrading from Calendarix Advanced version 1.2.20030831 to version 1.3.20040131, run the script  "upgrade_to_1_3_20040131.php".  
+
+The use of the upgrade scripts are as follows:
+Current Version				Next Version		Upgrade Script
+---------------				------------		--------------
+1.0.20030407 or 1.1.20030531		1.2.20030831		upgrade_to_1_2_20030831.php
+1.2.20030831				1.3.20040131		upgrade_to_1_3_20040131.php
+1.3.20040131 or 1.3.20040615		1.4.20041201		upgrade_to_1_4_20041201.php
+1.4.20041201				1.5.20050501		upgrade_to_1_5_20050501.php
+1.5.20050501				1.6.20051111		upgrade_to_1_6_20051111.php
+1.6.20051111				1.6.20060126		-
+1.6.20060126				1.6.20060506		upgrade_to_1_6_20060506.php
+1.6.20060506				1.7.20061228		upgrade_to_1_7_20061228.php
+1.7.20061228				1.7.20070707		upgrade_to_1_7_20070707.php
+1.7.20070707				1.8.20081227		upgrade_to_1_8_20081228.php
+	
+To do the upgrade, copy the upgrade script to your calendarix root directory (should be one level up from config) and run the script to make the database changes.  Then replace all the scripts with the new set for that new version.
+
+***************************************
+
+Note:  You should run the "upgrade_to_1_8_20081228.php" script first before replacing any other scripts with the new set.
+
+***************************************
+
+Before replacing the script "cal_db.inc.php" in the Config directory, keep the database and table references for the old script so that you can update the new file with the same references for the database connection.
+
+You should then remove any upgrade scripts when your upgrade is done.
+
