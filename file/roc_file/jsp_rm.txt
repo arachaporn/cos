@@ -1,5 +1,0 @@
-﻿INSERT INTO `cdip_cosdb`.`jsp_rm_price` (`id_jsp_rm`, `jsp_rm_code`, `jsp_rm_name`, `jsp_unit`, `jsp_rm_price`, `create_by`, `create_date`) VALUES
-(NULL, '11200000278', 'Sodium H2 Orthosphosphate (Sodium Acid Phosphate)', 'กก', '100', '1', '2014-07-10'), 
-(NULL, '11200000291', 'Sodium hydroxide anhydxous pellets(1 kg.)', 'กก', '350', '1', '2014-07-10'),
-(NULL, '11200000769', 'Sodium Lauryl Sulfate Texapon K12(P PH)', 'กก', '250', '1', '2014-07-10'), 
-(NULL, '11200000760', 'Sodium Saccharin', 'ปอ', '100', '1', '2014-07-10')
